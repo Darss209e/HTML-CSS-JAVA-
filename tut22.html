@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position absolute , relative and fixed</title>
+    <!-- css positions: static(default), relative,absolute, fixed,sticky -->
+    <style>
+    .container{
+          border: 2px solid black;
+          background-color:khaki ;
+          height: 2000px;
+
+
+    }
+        .box {
+            border: 2px solid red;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+
+        /* #box3{
+            relative:positions the element  relative to its normal position and will leave a gap at its normal position 
+            position: relative;
+            top: 50px;
+            left: 15px;
+        }  */
+        /* #box3 {
+            absolute:positions the element relative to its parents position
+            position: absolute;
+            top: 50px;
+            left: 50px;
+
+        } */
+         /* #box3{
+            fixed:positions the element relative to browser window
+          position: fixed;
+          top: 50px;
+          right: 10px;
+          
+         } */
+          #box3{
+            position: sticky;
+            top: 3px;
+          }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">chat with us</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+
+</html>

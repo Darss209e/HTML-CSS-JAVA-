@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+     <style>
+      *{
+        box-sizing: border-box;
+         } 
+         body{
+            background-color: red;
+         }
+
+       .container{
+             background-color: rgb(255, 140, 0);
+             border: 3px solid rgb(78, 2, 255);
+             padding: 100px;             
+             /* this is how you can set padding/margin for left right bottom top  */
+             /* padding-top: 50px;          
+             padding-bottom: 50px;
+             padding-left: 190px; */
+
+            /* padding: 23px 54px 6px 78px; padding/margin:top right bottom left */
+             padding: 50px 30px; /* padding: y(top/bottom) x(left/right); */
+
+             margin: 10px 100px;
+             border-radius: 30px;
+             width: 400px;
+             
+       }
+
+
+     </style>
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h3>this is my heading</h3>
+         <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At similique itaque aspernatur quaerat nam illo provident, dolore, veritatis officia praesentium culpa libero delectus!</p>
+
+    </div>
+
+    <div class="container">
+        <h3>this is my heading</h3>
+         <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At similique itaque aspernatur quaerat nam illo provident, dolore, veritatis officia praesentium culpa libero delectus!</p>
+
+    </div>
+
+    <div class="container">
+        <h3>this is my heading</h3>
+         <p id="thirst">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At similique itaque aspernatur quaerat nam illo provident, dolore, veritatis officia praesentium culpa libero delectus!</p>
+
+    </div>
+</body>
+</html>
